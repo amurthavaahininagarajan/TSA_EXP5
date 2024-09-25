@@ -18,7 +18,7 @@ import pandas as pd
 from statsmodels.tsa.seasonal import seasonal_decompose
 import matplotlib.pyplot as plt
 
-data = pd.read_csv('your_file_path.csv')
+data = pd.read_csv('cinemaTicket_Ref.csv')
 
 data['date'] = pd.to_datetime(data['date'])
 
